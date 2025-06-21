@@ -1,5 +1,5 @@
 import { expect, type Locator, type Page, Response } from "@playwright/test";
-import { SidemenuComponent } from "./COM/SidemenuComponent";
+import { SidemenuComponent } from "../COM/SidemenuComponent";
 
 export class DashboardPage {
   readonly page: Page;

@@ -1,6 +1,6 @@
 import { test, expect, BrowserContext, Page, Locator } from "@playwright/test";
-import { DashboardPage } from "./POM/DashboardPage";
-import { ShiftFormComponent } from "./POM/COM/ShiftFormComponent";
+import { DashboardPage } from "../POM/DashboardPage";
+import { ShiftFormComponent } from "../COM/ShiftFormComponent";
 
 test.describe.serial("Single shift test suite - CRUD OPS", () => {
   let context: BrowserContext;
