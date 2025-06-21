@@ -32,27 +32,6 @@ export default defineConfig({
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: "on-first-retry",
-
-    // Set German locale and timezone
-    locale: "de-DE",
-    timezoneId: "Europe/Berlin",
-    // Set geolocation to Germany (Berlin)
-    geolocation: {
-      latitude: 52.52,
-      longitude: 13.405,
-    },
-    // Grant geolocation permissions
-    permissions: ["geolocation"],
-
-    // Set German user agent
-    userAgent:
-      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-
-    // Set extra HTTP headers
-    extraHTTPHeaders: {
-      "Accept-Language": "de-DE,de;q=0.9,en;q=0.8",
-      "Accept-Encoding": "gzip, deflate, br",
-    },
   },
 
   /* Configure projects for major browsers */
