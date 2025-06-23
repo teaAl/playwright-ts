@@ -7,6 +7,7 @@ setup.use({ baseURL: process.env.BASE_URL });
 setup("Login ", async ({ browser }) => {
   let context: BrowserContext;
   let page: Page;
+  // user credentials woould normally be stored in GitHub Secrets and referenced in .env file (irl)
   let user = {
     email: "Laconics-Admin",
     password: "JJDlSvNh6cej3cxv",
